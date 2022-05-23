@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="7640a750e475471ea075b261c2470d5c" Name="Diagram1" ZoomLevel="98">
+        <EntityTypeShape EntityType="HRMSdbModel.department" Width="1.5" PointX="0.75" PointY="1.375" />
+        <EntityTypeShape EntityType="HRMSdbModel.designation" Width="1.5" PointX="0.75" PointY="4.375" />
+        <EntityTypeShape EntityType="HRMSdbModel.employee" Width="1.5" PointX="3" PointY="3.375" />
+        <EntityTypeShape EntityType="HRMSdbModel.payroll" Width="1.5" PointX="5.25" PointY="11.25" />
+        <EntityTypeShape EntityType="HRMSdbModel.payslip" Width="1.5" PointX="7.5" PointY="3.75" />
+        <EntityTypeShape EntityType="HRMSdbModel.salary" Width="1.5" PointX="5.25" PointY="4" />
+        <EntityTypeShape EntityType="HRMSdbModel.sysdiagram" Width="1.5" PointX="7.75" PointY="0.75" />
+        <EntityTypeShape EntityType="HRMSdbModel.user" Width="1.5" PointX="5.25" PointY="1.375" />
+        <EntityTypeShape EntityType="HRMSdbModel.usertype" Width="1.5" PointX="5.25" PointY="7.5" />
+        <AssociationConnector Association="HRMSdbModel.FK_salary_employee" />
+        <AssociationConnector Association="HRMSdbModel.FK_user_employee" />
+        <AssociationConnector Association="HRMSdbModel.FK_payslip_salary" />
+        <AssociationConnector Association="HRMSdbModel.empdept" />
+        <AssociationConnector Association="HRMSdbModel.empdesig" />
+        <AssociationConnector Association="HRMSdbModel.emputype" />
+        <AssociationConnector Association="HRMSdbModel.paypay" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

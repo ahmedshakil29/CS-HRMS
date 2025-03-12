@@ -34,7 +34,7 @@ Installation & Setup
 
 # Clone the Repository:
 
-1. git clone https://github.com/ahmedshakil29/CS-HRMS-with-entity-Framework
+1. git clone https://github.com/ahmedshakil29/CS-HRMS
 
 cd hrms
 
